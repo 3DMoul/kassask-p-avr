@@ -29,9 +29,6 @@ const uint8_t columnPins[3] = {PC0, PC1, PC2};
 #define columnPin2 PC1
 #define columnPin3 PC2
 
-// char matrix[3][3] = {{'1','2','3'},
-//                     {'4','5','6'},
-//                     {'7','8','9'}};
 // this to hold locked or unlocked value 0 or 1
 enum lockstatus {
 
@@ -42,7 +39,7 @@ enum lockstatus {
 char matrix[3][3] = {{'1','4','7'},
                     {'2','5','8'},
                     {'3','6','9'}};
-
+// reads matrix
 char buttonmatrix() {
 for (int i = 0; i < 3; i++) {
     // Clear all rows
