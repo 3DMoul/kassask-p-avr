@@ -36,8 +36,8 @@ const uint8_t rowPins[3] = {PB0, PB1, PB2};
 const uint8_t columnPins[3] = {PC0, PC1, PC2};
 // holds the chars for matrix
 char matrix[3][3] = {{'1','4','7'},
-{'2','5','8'},
-{'3','6','9'}};
+                     {'2','5','8'},
+                     {'3','6','9'}};
 // reads matrix
 char buttonmatrix() {
     for (int i = 0; i < 3; i++) {
