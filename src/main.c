@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
-#include <stdlib.h>
 #include <string.h>
 #include "uart.h"
 #include "servo.h"
@@ -12,13 +12,13 @@
 // C (analog input pins)
 // D (digital pins 0 to 7)
 
-#define DEBUG_LED_PIN PB4
 
 #define BIT_SET(a, b) (a |= (1U << b))
 #define BIT_CLEAR(a, b) (a &= ~(1U << b))
 #define BIT_FLIP(a, b) (a ^= (1U << b))
 #define BIT_CHECK(a, b) (a & (1U << b)) 
 
+#define DEBUG_LED_PIN PB4
 #define rowPin1 PD2
 #define rowPin2 PD3
 #define rowPin3 PD4
