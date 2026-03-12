@@ -58,15 +58,13 @@ char buttonmatrix() {
     return '\0'; // no key pressed
 }
 int main(void) {
+
     lcd_init();
-    lcd_puts("Safe is:");
-    lcd_set_cursor(0,1);
-    lcd_printf("locked");
-    lcd_clear();
     init_serial();
     init_servo();
     millis_init();
     sei();
+    
     // declaring millis so i can have noninterupting delays
     millis_t millis_since_last_change = 0;
     millis_t current_millis = 0;
@@ -88,6 +86,11 @@ int main(void) {
     int mainscreenclear = 2000;
     enum lockstatus status = locked;
     
+    // setting up lcd screen
+    lcd_puts("Safe is:");
+    lcd_set_cursor(0,1);
+    lcd_printf("locked");
+
     while(1)
     {
         
