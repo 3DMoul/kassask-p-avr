@@ -124,7 +124,6 @@ int main(void) {
                 lcd_printf("unlocked...");
             }
             millis_since_last_clear = current_millis_clear;
-            mainscreenclear = 5000;
         }
 
         if(idx == 4){
@@ -141,6 +140,8 @@ int main(void) {
                 lcd_set_cursor(0,1);
                 lcd_printf("unlocked");
                 status = unlocked;
+
+                millis_since_last_clear = current_millis_clear;
             }
             else{ // if the code is not correct
 
@@ -167,6 +168,7 @@ int main(void) {
             lcd_printf("locked");
             status = locked;
 
+            millis_since_last_clear = current_millis_clear;
         }
     }
     return 0;

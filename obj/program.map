@@ -184,7 +184,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x12f6
+.text           0x00000000     0x12ce
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -341,159 +341,159 @@ END GROUP
  .text          0x000006e2        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
                 0x000006e2                        . = ALIGN (0x2)
  *(.text.*)
- .text.startup  0x000006e2      0x2ba obj/main.o
+ .text.startup  0x000006e2      0x292 obj/main.o
                 0x000006e2                main
  .text.libgcc.mul
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.div
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.div
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.prologue
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.builtins
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fmul
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fixed
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.mul
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x0000099c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000974        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.avr-libc.fplib
-                0x0000099c        0xe C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                0x0000099c                __subsf3
-                0x0000099e                __addsf3
+                0x00000974        0xe C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x00000974                __subsf3
+                0x00000976                __addsf3
  .text.avr-libc.fplib
-                0x000009aa       0xcc C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                0x000009cc                __addsf3x
+                0x00000982       0xcc C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x000009a4                __addsf3x
  .text.avr-libc.fplib
-                0x00000a76       0x5e C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x00000a76                __fixunssfsi
+                0x00000a4e       0x5e C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x00000a4e                __fixunssfsi
  .text.avr-libc.fplib
-                0x00000ad4       0x7a C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x00000ad4                __floatunsisf
-                0x00000ad8                __floatsisf
+                0x00000aac       0x7a C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x00000aac                __floatunsisf
+                0x00000ab0                __floatsisf
  .text.avr-libc.fplib
-                0x00000b4e        0xc C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x00000b4e                __fp_inf
+                0x00000b26        0xc C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x00000b26                __fp_inf
  .text.avr-libc.fplib
-                0x00000b5a        0x6 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x00000b5a                __fp_nan
+                0x00000b32        0x6 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00000b32                __fp_nan
  .text.avr-libc.fplib
-                0x00000b60        0xe C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x00000b60                __fp_pscA
+                0x00000b38        0xe C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x00000b38                __fp_pscA
  .text.avr-libc.fplib
-                0x00000b6e        0xe C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x00000b6e                __fp_pscB
+                0x00000b46        0xe C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00000b46                __fp_pscB
  .text.avr-libc.fplib
-                0x00000b7c       0x22 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x00000b7c                __fp_round
+                0x00000b54       0x22 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00000b54                __fp_round
  .text.avr-libc.fplib
-                0x00000b9e       0x44 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x00000b9e                __fp_split3
-                0x00000bae                __fp_splitA
+                0x00000b76       0x44 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x00000b76                __fp_split3
+                0x00000b86                __fp_splitA
  .text.avr-libc.fplib
-                0x00000be2        0xe C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x00000be2                __fp_zero
-                0x00000be4                __fp_szero
+                0x00000bba        0xe C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x00000bba                __fp_zero
+                0x00000bbc                __fp_szero
  .text.avr-libc.fplib
-                0x00000bf0        0x8 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x00000bf0                __mulsf3
+                0x00000bc8        0x8 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00000bc8                __mulsf3
  .text.avr-libc.fplib
-                0x00000bf8       0xd2 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x00000c16                __mulsf3x
-                0x00000c1c                __mulsf3_pse
+                0x00000bd0       0xd2 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00000bee                __mulsf3x
+                0x00000bf4                __mulsf3_pse
  .text.avr-libc
-                0x00000cca       0x1c C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(strncmp.o)
-                0x00000cca                strncmp
+                0x00000ca2       0x1c C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(strncmp.o)
+                0x00000ca2                strncmp
  .text.avr-libc
-                0x00000ce6       0x5a C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(vsnprintf.o)
-                0x00000ce6                vsnprintf
+                0x00000cbe       0x5a C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(vsnprintf.o)
+                0x00000cbe                vsnprintf
  .text.avr-libc
-                0x00000d40      0x3ca C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
-                0x00000d40                vfprintf
+                0x00000d18      0x3ca C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x00000d18                vfprintf
  .text.avr-libc
-                0x0000110a       0x16 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
-                0x0000110a                strnlen_P
+                0x000010e2       0x16 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x000010e2                strnlen_P
  .text.avr-libc
-                0x00001120       0x16 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
-                0x00001120                strnlen
+                0x000010f8       0x16 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x000010f8                strnlen
  .text.avr-libc
-                0x00001136       0x82 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(fputc.o)
-                0x00001136                fputc
+                0x0000110e       0x82 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x0000110e                fputc
  .text.avr-libc
-                0x000011b8       0xbc C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
-                0x000011b8                __ultoa_invert
+                0x00001190       0xbc C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x00001190                __ultoa_invert
  .text.libgcc.mul
-                0x00001274        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
+                0x0000124c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.div
-                0x00001274       0x10 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
-                0x00001274                __negsi2
- .text.libgcc   0x00001284        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
+                0x0000124c       0x10 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
+                0x0000124c                __negsi2
+ .text.libgcc   0x0000125c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.prologue
-                0x00001284        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
+                0x0000125c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.builtins
-                0x00001284        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
+                0x0000125c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.fmul
-                0x00001284        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
+                0x0000125c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.fixed
-                0x00001284        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
+                0x0000125c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.mul
-                0x00001284        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
+                0x0000125c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.div
-                0x00001284        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
- .text.libgcc   0x00001284        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
+                0x0000125c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x0000125c        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.prologue
-                0x00001284       0x38 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
-                0x00001284                __prologue_saves__
+                0x0000125c       0x38 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
+                0x0000125c                __prologue_saves__
  .text.libgcc.builtins
-                0x000012bc        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
+                0x00001294        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.fmul
-                0x000012bc        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
+                0x00001294        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.fixed
-                0x000012bc        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
+                0x00001294        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.mul
-                0x000012bc        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
+                0x00001294        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.div
-                0x000012bc        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
- .text.libgcc   0x000012bc        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
+                0x00001294        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00001294        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.prologue
-                0x000012bc       0x36 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
-                0x000012bc                __epilogue_restores__
+                0x00001294       0x36 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
+                0x00001294                __epilogue_restores__
  .text.libgcc.builtins
-                0x000012f2        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
+                0x000012ca        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.fmul
-                0x000012f2        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
+                0x000012ca        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.fixed
-                0x000012f2        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
-                0x000012f2                        . = ALIGN (0x2)
+                0x000012ca        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_epilogue.o)
+                0x000012ca                        . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000012f2        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
-                0x000012f2                _exit
-                0x000012f2                exit
+ .fini9         0x000012ca        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
+                0x000012ca                _exit
+                0x000012ca                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -512,18 +512,18 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000012f2        0x4 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x000012ca        0x4 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
  *(.hightext)
  *(.hightext*)
  *(.progmemx)
  *(.progmemx.*)
-                0x000012f6                        . = ALIGN (0x2)
+                0x000012ce                        . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
-                0x000012f6                        _etext = .
+                0x000012ce                        _etext = .
 
-.data           0x00800100       0x64 load address 0x000012f6
+.data           0x00800100       0x64 load address 0x000012ce
                 0x00800100                        PROVIDE (__data_start = .)
  *(.data)
  .data          0x00800100        0x0 C:/Users/svant/OneDrive/Documents/AVR/Avr/bin/../lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/crtatmega328p.o
@@ -619,8 +619,8 @@ END GROUP
  *(.bss*)
  *(COMMON)
                 0x00800180                        PROVIDE (__bss_end = .)
-                0x000012f6                        __data_load_start = LOADADDR (.data)
-                0x0000135a                        __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x000012ce                        __data_load_start = LOADADDR (.data)
+                0x00001332                        __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800180        0x0
                 [!provide]                        PROVIDE (__noinit_start = .)
