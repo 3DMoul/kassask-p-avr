@@ -64,7 +64,7 @@ int main(void) {
     init_servo();
     millis_init();
     sei();
-    
+
     // declaring millis so i can have noninterupting delays
     millis_t millis_since_last_change = 0;
     millis_t current_millis = 0;
@@ -97,21 +97,32 @@ int main(void) {
         current_millis = millis_get();
         current_millis_clear = millis_get();
         // adds char key to the code array        
-        char key = buttonmatrix();
-        if(key){
+        if(status == 1){
 
-            code[idx++] = key;
-            code[idx] = '\0';
+            char key = buttonmatrix();
+            if(key){
+
+                code[idx++] = key;
+                code[idx] = '\0';
+            }
         }
+        lcd_set_cursor(0,1);
+        lcd_printf(code);
         if(current_millis_clear - millis_since_last_clear >= mainscreenclear){
-
+            
             lcd_clear();
+            if(status == 1){
+
             // lcd screen
             lcd_set_cursor(0,0);
             lcd_printf("code:");
             lcd_set_cursor(0,1);
             lcd_printf(code);
-
+            }
+            else{
+                lcd_set_cursor(0,0);
+                lcd_printf("unlocked...");
+            }
             millis_since_last_clear = current_millis_clear;
             mainscreenclear = 5000;
         }
@@ -156,7 +167,6 @@ int main(void) {
             lcd_printf("locked");
             status = locked;
 
-            lcd_clear();
         }
     }
     return 0;
