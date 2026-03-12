@@ -11,17 +11,14 @@
 // B (digital pin 8 to 13)
 // C (analog input pins)
 // D (digital pins 0 to 7)
-#define DEBUG_LED_PIN PB4
-#define BUTTON_PIN 1
 
+#define DEBUG_LED_PIN PB4
 
 #define BIT_SET(a, b) (a |= (1U << b))
 #define BIT_CLEAR(a, b) (a &= ~(1U << b))
 #define BIT_FLIP(a, b) (a ^= (1U << b))
 #define BIT_CHECK(a, b) (a & (1U << b)) 
-const uint8_t rowPins[3] = {PB0, PB1, PB2};
-const uint8_t columnPins[3] = {PC0, PC1, PC2};
-#define BUTTON_IS_CLICKED(PINB, BUTTON_PIN) !BIT_CHECK(PINB, BUTTON_PIN)
+
 #define rowPin1 PD2
 #define rowPin2 PD3
 #define rowPin3 PD4
@@ -31,25 +28,27 @@ const uint8_t columnPins[3] = {PC0, PC1, PC2};
 
 // this to hold locked or unlocked value 0 or 1
 enum lockstatus {
-
+    
     unlocked = 0,
     locked = 1
 };
+const uint8_t rowPins[3] = {PB0, PB1, PB2};
+const uint8_t columnPins[3] = {PC0, PC1, PC2};
 // holds the chars for matrix
 char matrix[3][3] = {{'1','4','7'},
-                    {'2','5','8'},
-                    {'3','6','9'}};
+{'2','5','8'},
+{'3','6','9'}};
 // reads matrix
 char buttonmatrix() {
-for (int i = 0; i < 3; i++) {
-    // Clear all rows
-    PORTB |= (1<<PB0)|(1<<PB1)|(1<<PB2);
-    PORTB &= ~(1 << rowPins[i]);
-    for (int j = 0; j < 3; j++) {
-        if (!BIT_CHECK(PINC, columnPins[j])) { // active LOW
-            _delay_ms(20); // debounce
-            if (!BIT_CHECK(PINC, columnPins[j])) {
-                while (!BIT_CHECK(PINC, columnPins[j])) {} // wait until release
+    for (int i = 0; i < 3; i++) {
+        // Clear all rows
+        PORTB |= (1<<PB0)|(1<<PB1)|(1<<PB2);
+        PORTB &= ~(1 << rowPins[i]);
+        for (int j = 0; j < 3; j++) {
+            if (!BIT_CHECK(PINC, columnPins[j])) { // active LOW
+                _delay_ms(20); // debounce
+                if (!BIT_CHECK(PINC, columnPins[j])) {
+                    while (!BIT_CHECK(PINC, columnPins[j])) {} // wait until release
                     return matrix[i][j];
                 }
             }
